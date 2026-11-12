@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Небольшая лаборатория: как ставить задачи агентам, проверять результат и оставлять решения за человеком.">
+  <meta name="theme-color" content="#f5f2eb">
+  <title>Лаборатория агентов — от идеи к результату</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="masthead"><a class="brand" href="#">a<span aria-hidden="true">↗</span> / agent lab</a><span class="edition">Учебный проект · 01</span></header>
+  <main id="main">
+    <section class="hero" aria-labelledby="title">
+      <p class="eyebrow"><span class="dot"></span> Человек задаёт направление</p>
+      <h1 id="title">Меньше рутины.<br>Больше <em>замысла.</em></h1>
+      <p class="lead">Агенты помогают превратить задачу в понятный результат: собрать материал, сделать черновик, проверить детали. Я выбираю цель и принимаю работу.</p>
+      <a class="primary" href="#examples">Попробовать на примере <span aria-hidden="true">↓</span></a>
+      <div class="flow" aria-label="Задача, работа агента, моя проверка"><span>Моя задача</span><span aria-hidden="true">→</span><span>Работа агента</span><span aria-hidden="true">→</span><span>Моя проверка</span></div>
+    </section>
+    <section class="section" aria-labelledby="possibilities">
+      <p class="eyebrow">01 / Возможности</p><h2 id="possibilities">Что можно поручить</h2>
+      <article class="capability"><span class="number">A</span><div><h3>Разобраться в информации</h3><p>Сравнить варианты, выделить главное и показать источники. Например, составить таблицу материалов для вымышленной мастерской.</p></div></article>
+      <article class="capability"><span class="number">B</span><div><h3>Сделать рабочий черновик</h3><p>Подготовить страницу, текст, таблицу или небольшой инструмент. Например, собрать лендинг придуманного книжного клуба.</p></div></article>
+      <article class="capability"><span class="number">C</span><div><h3>Проверить и улучшить</h3><p>Найти ошибки, проверить расчёты и удобство на телефоне. Например, сверить учебный бюджет и объяснить расхождения.</p></div></article>
+    </section>
+    <section class="section" id="examples" aria-labelledby="example-title">
+      <p class="eyebrow">02 / Мини-практика</p><h2 id="example-title">Хорошая задача —<br>половина результата</h2>
+      <p>Выберите пример и посмотрите, что стоит сообщить агенту. Все ситуации и числа здесь вымышлены.</p>
+      <div class="choices" role="group" aria-label="Учебный пример"><button type="button" data-example="club" aria-pressed="true">Книжный клуб</button><button type="button" data-example="budget" aria-pressed="false">Бюджет пикника</button><button type="button" data-example="research" aria-pressed="false">Мини-исследование</button></div>
+      <div class="example" aria-live="polite" aria-atomic="true"><p class="example-label">Задание агенту</p><p id="prompt">Сделай одностраничный сайт вымышленного клуба «Переплёт». Цель — объяснить формат встреч. Нужны: заголовок, описание и расписание из трёх придуманных встреч. Используй только вымышленные сведения. Проверь экран телефона. Результат — локальная страница, публикация после моего разрешения.</p><div class="check"><span aria-hidden="true">↳</span><p><strong>Я проверю:</strong> <span id="review">понятен ли формат клуба, читается ли расписание и удобно ли смотреть страницу с телефона.</span></p></div></div>
+      <noscript><p>Переключение примеров требует JavaScript. Пример книжного клуба доступен выше.</p></noscript>
+    </section>
+    <section class="section" aria-labelledby="process"><p class="eyebrow">03 / Подход</p><h2 id="process">От поручения до приёмки</h2><ol class="steps"><li><strong>Описать итог</strong><span>Что должно получиться, для кого и в каком формате.</span></li><li><strong>Задать границы</strong><span>Какие материалы использовать и какие действия требуют разрешения.</span></li><li><strong>Посмотреть результат</strong><span>Открыть файлы, проверить факты, пройти основные сценарии.</span></li><li><strong>Принять решение</strong><span>Попросить правки или разрешить следующий шаг.</span></li></ol></section>
+    <aside class="note"><p class="eyebrow">Важная привычка</p><h2>Доверять работе.<br>Проверять результат.</h2><p>Агент может ошибиться или неверно понять задачу. Публикации, расходы и сообщения людям требуют моего отдельного решения.</p></aside>
+  </main>
+  <footer><span>agent lab / учебная страница</span><p>Вымышленные примеры. Без личных данных, внешних шрифтов и аналитики.</p><a href="#">Наверх ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
